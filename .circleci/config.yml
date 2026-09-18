@@ -2,7 +2,7 @@ version: 2.1
 
 jobs:
   build1:  &build_template
-    parallelism: 5
+    #parallelism: 5
     machine:
       image: ubuntu-2204:current
     resource_class: xlarge
@@ -166,6 +166,56 @@ jobs:
   build148: *build_template
   build149: *build_template
   build150: *build_template
+  build151: *build_template
+  build152: *build_template
+  build153: *build_template
+  build154: *build_template
+  build155: *build_template
+  build156: *build_template
+  build157: *build_template
+  build158: *build_template
+  build159: *build_template
+  build160: *build_template
+  build161: *build_template
+  build162: *build_template
+  build163: *build_template
+  build164: *build_template
+  build165: *build_template
+  build166: *build_template
+  build167: *build_template
+  build168: *build_template
+  build169: *build_template
+  build170: *build_template
+  build171: *build_template
+  build172: *build_template
+  build173: *build_template
+  build174: *build_template
+  build175: *build_template
+  build176: *build_template
+  build177: *build_template
+  build178: *build_template
+  build179: *build_template
+  build180: *build_template
+  build181: *build_template
+  build182: *build_template
+  build183: *build_template
+  build184: *build_template
+  build185: *build_template
+  build186: *build_template
+  build187: *build_template
+  build188: *build_template
+  build189: *build_template
+  build190: *build_template
+  build191: *build_template
+  build192: *build_template
+  build193: *build_template
+  build194: *build_template
+  build195: *build_template
+  build196: *build_template
+  build197: *build_template
+  build198: *build_template
+  build199: *build_template
+  build200: *build_template
 
 
 workflows:
@@ -322,3 +372,53 @@ workflows:
       - build148
       - build149
       - build150
+      - build151
+      - build152
+      - build153
+      - build154
+      - build155
+      - build156
+      - build157
+      - build158
+      - build159
+      - build160
+      - build161
+      - build162
+      - build163
+      - build164
+      - build165
+      - build166
+      - build167
+      - build168
+      - build169
+      - build170
+      - build171
+      - build172
+      - build173
+      - build174
+      - build175
+      - build176
+      - build177
+      - build178
+      - build179
+      - build180
+      - build181
+      - build182
+      - build183
+      - build184
+      - build185
+      - build186
+      - build187
+      - build188
+      - build189
+      - build190
+      - build191
+      - build192
+      - build193
+      - build194
+      - build195
+      - build196
+      - build197
+      - build198
+      - build199
+      - build200
