@@ -2,7 +2,7 @@ version: 2.1
 
 jobs:
   build1:  &build_template
-    parallelism: 15
+    parallelism: 5
     machine:
       image: ubuntu-2204:current
     resource_class: xlarge
